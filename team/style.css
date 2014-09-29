@@ -9,6 +9,12 @@ http://ghanan.ca
 .row {
   padding: 20px;
 }
+
+p {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
 @media(max-width: 768px) {
   .col-sm-2 {
     display: none;
