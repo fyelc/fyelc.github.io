@@ -17,6 +17,7 @@ $(document).ready(function () {
       lessTop = $('#top-banner').height();
     }*/
 
+    lessTop = $('#nav').height();
     var scrollToSection = $(this).attr("href");
 
     $('html, body').animate({
