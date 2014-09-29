@@ -1,0 +1,116 @@
+<!--
+Designed By: Ghanan Gowripalan
+http://ghanan.ca
+-->
+html, body {
+  padding-top: 25px;
+  height: 100%;
+  width: 100%;
+}
+
+#nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+nav.navbar.navbar-default {
+  background-color: #fff;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #ddd;
+}
+.navbar a, .page-header, #footer {
+  color: #57068C !important;
+}
+.nav li {
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+}
+.nav li:hover {
+  border-bottom-color: #57068C;
+}
+
+.wrapper {
+  height: 100%;
+  width: 100%;
+}
+.row {
+  padding: 10px;
+}
+.button {
+  display: inline-block;
+  padding: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 0;
+  background-color: #8A39BF;
+  color: white;
+  text-align: center;
+  margin: 5px;
+}
+.button:hover {
+  text-decoration: none;
+  background-color: #7120A6;
+  color: white;
+}
+
+.section {
+  display: table;
+  height: auto;
+  width: 100%;
+  padding: 30px;
+}
+.section-child {
+  display: table-cell;
+  height: 100%;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.img-circle, .img-circle img {
+  border-radius: 50%;
+}
+img {
+  height: 100%;
+  width: 100%;
+}
+
+#footer {
+  margin-top: 20px;
+  background-color: #fff;
+  border-top: 1px solid #ddd;
+  height: 100px;
+}
+#footer p {
+  text-align: center;
+}
+#footer .engsoc img {
+  margin: auto;
+  height: 50px;
+  width: 221px;
+}
+#footer .social-buttons a {
+  color: #57068C;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+  padding: 10px;
+}
+#footer .social-buttons a:hover {
+  color: #57068C;
+  border-bottom: 2px solid #57068C;
+}
+
+@media(min-width: 768px) {
+  #footer .copy {
+    text-align: left;
+  }
+  #footer .engsoc {
+    margin-top: -10px;
+    text-align: center;
+  }
+  #footer .social-buttons {
+    text-align: right;
+  }
+}
+

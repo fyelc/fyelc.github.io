@@ -1,0 +1,14 @@
+<!--
+Designed By: Ghanan Gowripalan
+http://ghanan.ca
+-->
+.time {
+  width: 100px;
+}
+
+.input-group {
+  margin: 5px;
+}
+input[type='text'].form-control {
+  background-color: white;
+}

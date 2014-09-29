@@ -1,0 +1,20 @@
+<!--
+Designed By: Ghanan Gowripalan
+http://ghanan.ca
+-->
+.page-header {
+  margin: 5px;
+}
+
+.row {
+  padding: 20px;
+}
+@media(max-width: 768px) {
+  .col-sm-2 {
+    display: none;
+  }
+
+  .col-sm-10 {
+    width: 100%;
+  }
+}
