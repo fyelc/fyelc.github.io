@@ -3,7 +3,6 @@ Designed By: Ghanan Gowripalan
 http://ghanan.ca
 -->
 html, body {
-  padding-top: 25px;
   height: 100%;
   width: 100%;
 }
@@ -32,6 +31,7 @@ nav.navbar.navbar-default {
 }
 
 .wrapper {
+  padding-top: 50px;
   height: 100%;
   width: 100%;
 }
