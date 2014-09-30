@@ -14,6 +14,7 @@ http://ghanan.ca
 
 #sponsors div[class*='img'], #speakers div[class*='img'] {
   padding: 20%;
+  float: center;
 }
 
 @media(min-width: 768px) {
