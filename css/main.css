@@ -71,7 +71,8 @@ nav.navbar.navbar-default {
 .img-circle, .img-circle img {
   border-radius: 50%;
 }
-img {
+img:not(.brand-img) {
+  display: inline-block;
   height: 100%;
   width: 100%;
 }
