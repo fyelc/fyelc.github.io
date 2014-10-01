@@ -59,13 +59,13 @@ nav.navbar.navbar-default {
   display: table;
   height: auto;
   width: 100%;
-  padding: 30px;
 }
 .section-child {
   display: table-cell;
   height: 100%;
   width: 100%;
   vertical-align: middle;
+  padding: 30px;
 }
 
 .img-circle, .img-circle img {
