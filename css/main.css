@@ -12,6 +12,11 @@ html, body {
   top: 0;
   width: 100%;
   z-index: 9999;
+	box-shadow: 0px -4px 10px 0px black;
+	-moz-box-shadow: 0px -4px 10px 0px black;
+	-webkit-box-shadow: 0px -4px 10px 0px black;
+	-o-box-shadow: 0px -4px 10px 0px black;
+	-ms-box-shadow: 0px -4px 10px 0px black;
 }
 nav.navbar.navbar-default {
   background-color: #fff;
@@ -26,8 +31,11 @@ nav.navbar.navbar-default {
   border-top: 3px solid transparent;
   border-bottom: 3px solid transparent;
 }
-.nav li:hover {
+.nav li:hover, .nav li.this-page {
   border-bottom-color: #57068C;
+}
+.nav li.this-page a {
+	cursor: default;
 }
 
 .wrapper {

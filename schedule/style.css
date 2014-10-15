@@ -2,6 +2,7 @@
 Designed By: Ghanan Gowripalan
 http://ghanan.ca
 */
+
 .time {
   width: 100px;
 }
@@ -12,3 +13,4 @@ http://ghanan.ca
 input[type='text'].form-control {
   background-color: white;
 }
+
