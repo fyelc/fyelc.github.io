@@ -87,6 +87,11 @@ img:not(.brand-img) {
   width: 100%;
 }
 
+p {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 #footer {
   margin-top: 20px;
   background-color: #fff;
