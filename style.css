@@ -2,8 +2,7 @@
 Designed By: Ghanan Gowripalan
 http://ghanan.ca
 */
-.wrapper {
-	height: 100vh;
+html {
 	overflow-y: auto;
 	overflow-x: hidden;
 	-webkit-perspective: 300px;
@@ -11,6 +10,9 @@ http://ghanan.ca
 	-ms-perspective: 300px;
 	-o-perspective: 300px;
 	perspective: 300px;
+}
+.wrapper {
+	height: 100vh;
 }
 #home {
   height: 100%;
