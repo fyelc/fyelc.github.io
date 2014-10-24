@@ -33,12 +33,6 @@ http://ghanan.ca
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
-
-	-webkit-transform: translateZ(-300px) scale(2);
-	-moz-transform: translateZ(-300px) scale(2);
-	-ms-transform: translateZ(-300px) scale(2);
-	-o-transform: translateZ(-300px) scale(2);
-	transform: translateZ(-300px) scale(2);
 	
 
 	z-index: -1
@@ -57,5 +51,12 @@ http://ghanan.ca
 @media(min-width: 768px) {
   #sponsors div[class*='img'], #speakers div[class*='img'] {
     padding: 5% !important;
+  }
+  #home .bg {
+  	-webkit-transform: translateZ(-300px) scale(2);
+	-moz-transform: translateZ(-300px) scale(2);
+	-ms-transform: translateZ(-300px) scale(2);
+	-o-transform: translateZ(-300px) scale(2);
+	transform: translateZ(-300px) scale(2);
   }
 }
