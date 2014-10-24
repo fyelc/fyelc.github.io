@@ -7,6 +7,9 @@ http://ghanan.ca
 	overflow-y: auto;
 	overflow-x: hidden;
 	-webkit-perspective: 300px;
+	-moz-perspective: 300px;
+	-ms-perspective: 300px;
+	-o-perspective: 300px;
 	perspective: 300px;
 }
 #home {
@@ -18,8 +21,7 @@ http://ghanan.ca
 #home > div {
   background-color: #fff;
   background-color: rgba(255,255,255,0.9);
-  -webkit-transform: translateZ(0px) scale(1);
-  transform: translateZ(0px) scale(1);
+
 }
 #home .bg {
 	position: absolute;
@@ -32,8 +34,12 @@ http://ghanan.ca
   background-size: cover;
   background-repeat: no-repeat;
 
-	-webkit-transform: translateZ(-300px) scale(1);
-	transform: translateZ(-300px) scale(1);
+	-webkit-transform: translateZ(-300px) scale(2);
+	-moz-transform: translateZ(-300px) scale(2);
+	-ms-transform: translateZ(-300px) scale(2);
+	-o-transform: translateZ(-300px) scale(2);
+	transform: translateZ(-300px) scale(2);
+	
 
 	z-index: -1
 }
