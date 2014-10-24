@@ -18,6 +18,8 @@ http://ghanan.ca
 #home > div {
   background-color: #fff;
   background-color: rgba(255,255,255,0.9);
+  -webkit-transform: translateZ(0px) scale(1);
+  transform: translateZ(0px) scale(1);
 }
 #home .bg {
 	position: absolute;
@@ -30,8 +32,8 @@ http://ghanan.ca
   background-size: cover;
   background-repeat: no-repeat;
 
-	-webkit-transform: translateZ(-300px) scale(2);
-	transform: translateZ(-300px) scale(2);
+	-webkit-transform: translateZ(-300px) scale(1);
+	transform: translateZ(-300px) scale(1);
 
 	z-index: -1
 }
