@@ -2,42 +2,18 @@
 Designed By: Ghanan Gowripalan
 http://ghanan.ca
 */
-html {
-	overflow-y: auto;
-	overflow-x: hidden;
-	-webkit-perspective: 300px;
-	-moz-perspective: 300px;
-	-ms-perspective: 300px;
-	-o-perspective: 300px;
-	perspective: 300px;
-}
-.wrapper {
-	height: 100vh;
-}
 #home {
   height: 100%;
-	background-color: transparent;
-
+  background-image: url('img/bg.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #home > div {
   background-color: #fff;
   background-color: rgba(255,255,255,0.9);
-
-}
-#home .bg {
-	position: absolute;
-	top:0;
-	left:0;
-	
-	background-image: url('img/bg.jpg');
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
-	
-
-	z-index: -1
 }
 
 #buttons {
@@ -53,12 +29,5 @@ html {
 @media(min-width: 768px) {
   #sponsors div[class*='img'], #speakers div[class*='img'] {
     padding: 5% !important;
-  }
-  #home .bg {
-  	-webkit-transform: translateZ(-300px) scale(2);
-	-moz-transform: translateZ(-300px) scale(2);
-	-ms-transform: translateZ(-300px) scale(2);
-	-o-transform: translateZ(-300px) scale(2);
-	transform: translateZ(-300px) scale(2);
   }
 }
