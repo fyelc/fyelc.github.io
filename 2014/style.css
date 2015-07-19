@@ -1,0 +1,35 @@
+/*
+Designed By: Ghanan Gowripalan
+
+
+http://ghanan.ca
+*/
+#home {
+  height: 100%;
+  background-image: url('img/bg.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#home > div {
+  background-color: #fff;
+  background-color: rgba(255,255,255,0.9);
+}
+
+#buttons {
+  margin-top: 50px;
+  width: 100%;
+  text-align: center;
+}
+
+#sponsors div[class*='img'], #speakers div[class*='img'] {
+  padding: 20%;
+}
+
+@media(min-width: 768px) {
+  #sponsors div[class*='img'], #speakers div[class*='img'] {
+    padding: 5% !important;
+  }
+}

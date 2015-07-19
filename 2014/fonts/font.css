@@ -1,0 +1,8 @@
+@import "texgyreadventor/stylesheet.css";
+@import "disco/stylesheet.css";
+@import "steiner/stylesheet.css";
+@import "raleway/stylesheet.css";
+@import "mank-sans/stylesheet.css";
+@import "crew36/stylesheet.css";
+
+*, html * { font-family: "texgyreadventor-regular", sans-serif; }
