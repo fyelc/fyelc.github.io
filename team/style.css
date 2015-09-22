@@ -13,8 +13,7 @@ p {
 
 .img-circle img {
   border: 3px solid #57068C;
-  height: 250px;
-  width: 250px;
+
 }
 
 @media(max-width: 768px) {
